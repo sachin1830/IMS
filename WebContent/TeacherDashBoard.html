@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Teacher DashBoard</title>
+  <meta charset="utf-8">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/08bfd4d6f5.js" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+<!--css link-->
+<link rel="stylesheet" type="text/css" href="teacherstyle.css">
+<!---google font--->
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-primary sticky-top">
+  <a class="navbar-brand ml-4" href="LibreryAdminDashBoard.html"><img src="image/logo.png" style="height: 70px; width: 70px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-5">
+      <li class="nav-item active">
+        <a class="nav-link " href="TeacherDashBoard.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-white" href="aboutteacherdashboard.html">About</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " href="">contactus</a>
+      </li>
+      
+    </ul>
+      
+  </div>
+  
+</nav>
+
+<!---heading--------------------------------------------------------------------->
+  <div>
+  <h1 class="text-center mt-3">Teachers DashBoard</h1>
+  <p class="text-center">Teaching is the highest form of understanding...</p>
+</div>
+
+<section class="container text-center">
+  <h4 >Shortcuts</h4><hr>
+  <div>
+   <form action="AvailableBookForTeacherController" method="post" class="d-inline">
+    <button class="btn btn-primary" type="submit">AvailbaleBooks</button>
+   </form>
+   
+    <form action="StudentAvailabeBookController" method="post" class="d-inline">
+    <button class="btn btn-primary" type="submit">IssueBookByYou</button>
+    </form>
+  </div>
+</section>
+</body>
